@@ -56,7 +56,9 @@ $ ln -s /usr/local/Cellar/opencv3/3.1.0_4/lib/python3.6/site-packages/cv2.cpytho
   $ git clone https://github.com/opencv/opencv.git --config http.proxy=localhost:8123
   $ git clone https://github.com/opencv/opencv_contrib.git --config http.proxy=localhost:8123
   ```
+  
   ​
+  
   #### 3. 编译OpenCV
   进入OpenCV路径中创建**build**目录并进入，准备编译：
   ```shell
@@ -112,7 +114,7 @@ $ ln -s /usr/local/Cellar/opencv3/3.1.0_4/lib/python3.6/site-packages/cv2.cpytho
   $ make -j4
   ```
 
-
+  ​
 
   #### 4. OpenCV安装
   如果在前面步骤成功编译，就可以开始安装了：
@@ -125,7 +127,7 @@ $ ln -s /usr/local/Cellar/opencv3/3.1.0_4/lib/python3.6/site-packages/cv2.cpytho
   ```
   一切顺利的话，OpenCV我们就安装好了~
 
-
+​
 
 ### 3. 测试OpenCV是否安装成功
 查看虚拟环境env3中是否存在cv的so文件：
@@ -150,7 +152,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 '3.4.0'
 ```
 
-
+​
 
 ### 4. 卸载OpenCV
 编译安装后卸载，build目录中执行：
@@ -162,7 +164,7 @@ Homebrew安装后卸载：
 $ brew uninstall opencv3
 ```
 
-
+​
 
 ### 5. Ubuntu安装区别
 apt-get更新：
