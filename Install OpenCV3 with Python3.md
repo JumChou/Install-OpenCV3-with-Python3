@@ -1,6 +1,6 @@
 # Install OpenCV3 with Python3.6
 本文以Mac安装为主要内容，Ubuntu主要步骤流程类似，只在文末记录差别。
-​
+  ​
 ### 1. Easy Way
 Mac通过Homebrew来安装OpenCV3的release包，我没有通过这种方式安装，但以optional为目的记录一下。
 安装OpenCV3，指定python3支持、contribute包支持：
