@@ -56,9 +56,7 @@ $ ln -s /usr/local/Cellar/opencv3/3.1.0_4/lib/python3.6/site-packages/cv2.cpytho
   $ git clone https://github.com/opencv/opencv.git --config http.proxy=localhost:8123
   $ git clone https://github.com/opencv/opencv_contrib.git --config http.proxy=localhost:8123
   ```
-
-
-
+  ​
   #### 3. 编译OpenCV
   进入OpenCV路径中创建**build**目录并进入，准备编译：
   ```shell
