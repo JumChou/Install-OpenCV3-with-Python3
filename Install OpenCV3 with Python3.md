@@ -11,8 +11,8 @@ $ brew install opencv3 --with-python3 --with-contrib
 $ cd my_tf/lib/python3.6/site-packages  
 $ ln -s /usr/local/Cellar/opencv3/3.1.0_4/lib/python3.6/site-packages/cv2.cpython-36m-darwin.so cv2.so
 ```  
-
-
+  
+  
 
 ### 2. Complete Way
   #### 1. 准备工作
