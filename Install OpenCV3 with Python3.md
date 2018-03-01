@@ -1,5 +1,6 @@
 # Install OpenCV3 with Python3.6
-
+本文以Mac安装为主要内容，Ubuntu主要步骤流程类似，只在文末记录差别。
+​
 ### 1. Easy Way
 Mac通过Homebrew来安装OpenCV3的release包，我没有通过这种方式安装，但以optional为目的记录一下。
 安装OpenCV3，指定python3支持、contribute包支持：
@@ -25,7 +26,7 @@ $ ln -s /usr/local/Cellar/opencv3/3.1.0_4/lib/python3.6/site-packages/cv2.cpytho
       $ sudo "/Applications/CMake.app/Contents/bin/cmake-gui" --install
       ```
   + **Python3.6** + **virtualenv**虚拟环境 + **numpy**库
-    本文基于虚拟环境目录**env3**，pip安装numpy至**env3**环境中。
+    设置虚拟环境目录为**env3**，pip安装numpy至**env3**环境中。
 
     ​
 
@@ -87,7 +88,7 @@ $ ln -s /usr/local/Cellar/opencv3/3.1.0_4/lib/python3.6/site-packages/cv2.cpytho
   * PYTHON_DEFAULT_EXECUTABLE指定了默认解释器为Python3，否则编译时会默认寻找Mac系统自带的Python2.7解释器。
   * BUILD_opencv_python2、BUILD_opencv_python3指定了只编译Python3版本。
   * 需认真对照Python3虚拟环境env3路径、其他路径。
-    我的env3路径：~/Documents/\[ML\]/project/env3/
+    env3路径：~/Documents/\[ML\]/project/env3/
     Python3路径：/Library/Frameworks/Python.framework/Versions/3.6/
 
   cmake执行完成后的输出信息：
