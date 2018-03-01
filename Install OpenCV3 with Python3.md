@@ -1,6 +1,6 @@
-#Install OpenCV3 with Python3.6
+# Install OpenCV3 with Python3.6
 
-###1. Easy Way
+### 1. Easy Way
 Mac通过Homebrew来安装OpenCV3的release包，我没有通过这种方式安装，但以optional为目的记录一下。
 安装OpenCV3，指定python3支持、contribute包支持：
 ```shell
@@ -14,7 +14,7 @@ $ ln -s /usr/local/Cellar/opencv3/3.1.0_4/lib/python3.6/site-packages/cv2.cpytho
 
 
 
-###2. Complete Way
+### 2. Complete Way
   #### 1. 准备工作
   + **git**安装
       https://git-scm.com/download/
@@ -118,7 +118,7 @@ $ ln -s /usr/local/Cellar/opencv3/3.1.0_4/lib/python3.6/site-packages/cv2.cpytho
 
 
 
-  ####4. OpenCV安装
+  #### 4. OpenCV安装
   如果在前面步骤成功编译，就可以开始安装了：
   ```shell
   $ make install
@@ -131,7 +131,7 @@ $ ln -s /usr/local/Cellar/opencv3/3.1.0_4/lib/python3.6/site-packages/cv2.cpytho
 
 
 
-###3. 测试OpenCV是否安装成功
+### 3. 测试OpenCV是否安装成功
 查看虚拟环境env3中是否存在cv的so文件：
 ```shell
 $ pwd
@@ -156,7 +156,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 
 
-###4. 卸载OpenCV
+### 4. 卸载OpenCV
 编译安装后卸载，build目录中执行：
 ```shell
 $ sudo make uninstall
@@ -168,7 +168,7 @@ $ brew uninstall opencv3
 
 
 
-###5. Ubuntu安装区别
+### 5. Ubuntu安装区别
 apt-get更新：
 ```shell
 $ sudo apt-get update
